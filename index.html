@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>pm square farms</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>
+<body>
+  <header>
+    <h1>PM<sup>2</sup> FARMS</h1>
+    <p>Your trusted partner in farming innovation</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products" id="tractor-button">Tractors</a>
+    <a href="#products" id="harvester-button">Harvesters</a>
+    <a href="#products" id="load-vehicles-button">Load Vehicles</a>
+    <a href="#products" id="plowing-machines-button">Plowing Machines</a>
+    <a href="#products" id="stopwatch-calculator-button">Stopwatch with Calculator</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="content" id="about">
+    <h2>About Us</h2>
+    <p>We provide state-of-the-art agricultural machinery to help farmers maximize their productivity and efficiency.
+      From tractors to harvesters, we bring advanced technology to your fields.</p>
+  </section>
+
+  <section class="content" id="products">
+    <h2>Our Products</h2>
+    <div class="product-buttons" id="tractor-buttons">
+      <button>Pudur Tractor</button>
+      <button>Malaimedu Tractor</button>
+      <button>Malaiyanur Tractor</button>
+    </div>
+    <div class="product-buttons" id="harvester-buttons">
+      <button>Pudur Harvester</button>
+      <button>Malaimedu Harvester</button>
+      <button>Malaiyanur Harvester</button>
+    </div>
+    <div class="product-buttons" id="load-vehicles-buttons">
+      <button>Pudur Load Vehicle</button>
+      <button>Malaimedu Load Vehicle</button>
+      <button>Malaiyanur Load Vehicle</button>
+    </div>
+    <div class="product-buttons" id="plowing-machines-buttons">
+      <button>Pudur Plowing Machine</button>
+      <button>Malaimedu Plowing Machine</button>
+      <button>Malaiyanur Plowing Machine</button>
+    </div>
+    <div id="owner-info" class="owner-info"></div>
+  </section>
+
+  <section class="content stopwatch-container" id="stopwatch-calculator">
+    <h2>Stopwatch with Calculator</h2>
+    <div id="stopwatch" class="stopwatch-display">00:00</div>
+    <div class="stopwatch-buttons">
+      <button onclick="startStopwatch()">Start</button>
+      <button onclick="stopStopwatch()">Stop </button>
+    </div>
+    <div class="input-field">
+      <label for="hourlyRate">Enter amount per hour:</label>
+      <input type="number" id="hourlyRate" placeholder="Hourly Rate">
+    </div>
+    <button onclick="calculateAmount()">Calculate</button>
+    <h3 id="result"></h3>
+  </section>
+
+  <section class="content" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Reach out to us:</p>
+    <p>#My first Project</p>
+    <p>Email:<b>dineshhariraman2004@gmail.com</b></p>
+    <p>Phone: <b>+91 9025119360</b></p>
+    <p>Address: <b>DINESH S/O HARIRAMAN</b> #39 Kammavar Naidu Street,Pudur Village, TamilNadu, INDIA</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PM<sup>2</sup>FARMS. All rights reserved.</p>
+  </footer>
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
