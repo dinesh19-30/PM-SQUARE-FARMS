@@ -6,7 +6,7 @@ Easily contact machinery owners via call or WhatsApp.
 Use specialized calculators and timers for agricultural activities.
 Expect more features and tools tailored to farmers and machinery owners in the future.
 
-And this application name is #(PM SQUARE FARMS)
+And this application name is (PM SQUARE FARMS)
 
 PM Square define village names, namely PUDUR,MALAIMEDU,MALAYANUR Villages this is known PM square
 
